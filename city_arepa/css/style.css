@@ -1,0 +1,147 @@
+/* esta es la estructura de los comentarios en css 
+elemento{
+    propiedad: valor;
+*/
+
+
+.menu{
+
+        font-size: 120%;
+        text-align: center;
+        display: inline-block;
+        width: 84%;    
+        }
+
+nav ul {    
+list-style-type: none;
+    }
+
+nav li{
+display: inline-block;
+}
+
+h1{
+    text-align: center;
+    font-size: 120px;
+    background-color: #ffff00;
+    color: #fa0909;
+    margin: 8%;
+}
+
+h2{
+    font-size: 90px;
+    color: #fa0909; 
+    text-align: center; 
+}
+
+h3{
+    font-size: 75px;
+    color: #fa0909;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    color: #04114b;
+}
+
+p{
+    font-size: 140%; 
+    text-align: center;
+    font: italic;
+    margin: 60px;    
+}
+
+
+.fundadores{
+    display: flex;
+    justify-content:center;
+   }
+
+.C156{
+    
+    margin: 0 15px;
+    
+}
+
+.blog1{
+    display: flex;
+    justify-items: auto;
+}
+
+.formulario{
+    justify-self:center;
+    width: 400px;
+    background: #02293b;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+.campos{
+
+    width: 100%;
+    margin-bottom: 30px;
+    border: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+     
+
+}
+
+.envio{
+    border-radius: 6px;
+    border: #ffffff;
+    font-size: larger;
+}
+
+.E{
+    display: flex;
+    justify-content: center;
+}
+.Entradas{
+    margin: 15px;
+}
+
+.F{
+    display: flex;
+    justify-content: center;
+}
+.Fuertes{
+    margin: 15px;
+}
+
+.B{
+    display: flex;
+    justify-content: center;
+}
+.Bebidas{
+    margin: 15px;
+}
+.grid-container{
+    display: grid;
+    background-color: #ffff00;
+    margin-top: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    
+    }
+
+.grid-container div{
+    background-color: #ffff00;
+    text-align: center;
+    color: #04114b;
+    font-weight: bold;
+   
+}
+.Todos-los-derechos-reservados{
+    grid-column: 2 / span 2;
+
+}
+
+.Síguenos{
+    text-align: end;
+    
+}
