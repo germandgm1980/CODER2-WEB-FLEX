@@ -1,0 +1,177 @@
+/* esta es la estructura de los comentarios en css 
+elemento{
+    propiedad: valor;
+*/
+
+
+header{
+    background-color: #04114b;
+    
+}
+
+body{
+    background-color: #04114b;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    }
+    
+
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color:#ffff00;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+
+.menu{
+        text-align: end;
+        display: inline-block;
+        width: 84%;    
+        flex-flow: row wrap;
+        }
+
+
+h1{
+    text-align: center;
+    font-size: 120px;
+    color:#ffff00;
+    margin: 10%;
+    flex-flow: row wrap;
+}
+
+h2{
+    font-size: 90px;
+    color: #fa0909; 
+    text-align: center; 
+    margin: 8%;
+}
+
+h3{
+    font-size: 75px;
+    color: #fa0909;
+    text-align: center;
+    margin: 7%;
+}
+
+h4{
+    text-align: center;
+    color: #04114b;
+}
+
+p{
+    font-size: 140%; 
+    text-align: center;
+    font: italic;
+    margin: 120px;
+    color: #ffffff;    
+    flex-flow: row wrap;
+}
+
+
+.fundadores{
+    display: flex;
+    justify-content:center;
+    flex-flow: row wrap;
+   }
+
+.C156{
+    
+    margin: 0 15px;
+    
+}
+
+.blog1{
+    display: flex;
+    justify-items: auto;
+    flex-flow: row wrap;
+}
+
+.formulario{
+    justify-self:center;
+    width: 400px;
+    background: #2710f5;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+.campos{
+
+    width: 100%;
+    margin-bottom: 30px;
+    border: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+     
+
+}
+
+.envio{
+    border-radius: 6px;
+    border: #ffffff;
+    font-size: larger;
+}
+
+.E{
+    display: flex;
+    justify-content: center;
+}
+.Entradas{
+    margin: 15px;
+}
+
+.F{
+    display: flex;
+    justify-content: center;
+}
+.Fuertes{
+    margin: 15px;
+}
+
+.B{
+    display: flex;
+    justify-content: center;
+}
+.Bebidas{
+    margin: 15px;
+}
+.grid-container{
+    display: grid;
+    background-color: #ffff00;
+    margin-top: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    
+    }
+
+.grid-container div{
+ background-color: #ffff00;
+    text-align: center;
+    color: #04114b;
+    font-weight: bold;
+}
+   
+   
+.Todos-los-derechos-reservados{
+    grid-column: 2 / span 2;
+
+}
+
+.Síguenos{
+    text-align: end;
+    }

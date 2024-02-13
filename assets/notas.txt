@@ -1,0 +1,27 @@
+Link Whimsical    GERMAN GONZALEZ
+https://whimsical.com/entregable-1-6PmhXM15XL4yPQiFXcfnC8
+Retroalimentación entregable 1
+Hola Ger! Cómo estas? Soy Abril, la tutora.
+Recibí tu Preentregable 1 de forma correcta! 🙌
+A continuación, te envio lo revisado en tu pre-entrega según se indica en las rúbricas de evaluación:
+🌟 Diseño:
+🔹 Prototipado (Wireframe)
+Estructura de elementos y uso de herramienta: Optimo
+5 Wireframe desktop (por cada sección): Optimo	
+5 Wireframe mobile (por cada sección): Optimo
+La estructura presentada en el wireframe es prolija y elaborada. La adaptacion responsive es correcta. La navegación es clara
+🌟Código:
+🔹 Maquetado (HTML) - Código
+Orden de archivos: Correcto. Los archivos están bien organizados. Tene en cuenta que no deberia haber archivos ni carpetas nombrados con mayusculas ni espacios
+Tabulación, anidamiento de etiquetas. Correcto. Hay tabulaciones desprolijas. 
+Estructura básica html: Correcto. <b> no deberia anidar a section o article. Article es para encerrar estructuras de codigo que tiendan a repetirse en un archivo. Para que haya un h3 en un archivo tiene que haber en el mismo un h2, lo mismo pasa con todos los headings siempre debe estar antes el anterior. Cada input debe tener su label.
+Enlaces: Correcto. Los enlaces funcionan pero las rutas en el menu de navegacion de los archivos dentro de pages no son correctas
+Imágenes y su atributo "alt": Bajo. Todas las imagenes deben tener el alt correspondiente.
+Correcta navegación de menú: Optimo. Todos los archivos tienen el menu de navegacion para ir de un archivo a otro sin inconveniente
+🔹 Maquetado (HTML) - Estilo y Funcionalidad
+Enlace a archivo css: Optimo
+Uso de correcto de clases-id: Optimo
+🔹 Estilo inicial (CSS)
+Fuentes, colores, modificadores de elementos: Bajo. No deberia haber estilos en el html - corregido
+Reutilización de código: Optimo
+Reentrega: No
