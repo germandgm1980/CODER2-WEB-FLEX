@@ -3,6 +3,46 @@ elemento{
     propiedad: valor;
 */
 
+ 
+/* styles.css */
+
+.navbar-nav .nav-link {
+    color: yellow !important;
+
+  }
+
+  footer {
+    background-color: #04114b;
+    color: #ffff00;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .footer-cell {
+
+    padding: 1px;
+  }
+  
+  .instagram-button a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffff00;
+  }
+  
+
+
+
+.logo_cityarepa{
+    background-color: transparent;
+}
 
 header{
     background-color: #04114b;
@@ -12,6 +52,7 @@ header{
 body{
     background-color: #04114b;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 ul{
@@ -30,23 +71,14 @@ nav a{
     align-items: center;
     justify-content: space-between;
     padding: 5px;
-    background-color:#ffff00;
     font-size: xx-large;
     text-decoration: none;
 }
 
 
-.menu{
-        text-align: end;
-        display: inline-block;
-        width: 84%;    
-        flex-flow: row wrap;
-        }
-
-
 h1{
     text-align: center;
-    font-size: 120px;
+    font-size: 100px;
     color:#ffff00;
     margin: 10%;
     flex-flow: row wrap;
@@ -89,8 +121,13 @@ p{
 
 .C156{
     
-    margin: 0 15px;
+    margin: 15px;
     
+}
+
+.video_arepas{
+  
+    text-align: center;
 }
 
 .blog1{
@@ -102,7 +139,7 @@ p{
 .formulario{
     justify-self:center;
     width: 400px;
-    background: #2710f5;
+    background: #1a01fa;
     padding: 30px;
     margin: auto;
     border-radius: 4px;
@@ -117,9 +154,7 @@ p{
     border: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: larger;
-     
-
-}
+     }
 
 .envio{
     border-radius: 6px;
@@ -127,17 +162,25 @@ p{
     font-size: larger;
 }
 
+@media (max-width: 768px) {
+    
 .E{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+      align-items: center;
+   
 }
 .Entradas{
     margin: 15px;
+      
 }
 
 .F{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .Fuertes{
     margin: 15px;
@@ -146,32 +189,10 @@ p{
 .B{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .Bebidas{
     margin: 15px;
 }
-.grid-container{
-    display: grid;
-    background-color: #ffff00;
-    margin-top: 20px;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    
-    }
-
-.grid-container div{
- background-color: #ffff00;
-    text-align: center;
-    color: #04114b;
-    font-weight: bold;
 }
-   
-   
-.Todos-los-derechos-reservados{
-    grid-column: 2 / span 2;
-
-}
-
-.Síguenos{
-    text-align: end;
-    }
