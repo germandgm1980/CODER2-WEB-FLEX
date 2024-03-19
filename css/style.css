@@ -3,74 +3,83 @@ elemento{
     propiedad: valor;
 */
 
+ 
+/* styles.css */
 
+.navbar-nav .nav-link {
+    color: yellow !important;
+  }
+  footer {
+    background-color: #04114b;
+    color: #ffff00;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+  }
+  .footer-cell {
+    padding: 1px;
+  }
+  .instagram-button a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffff00;
+  }
+.logo_cityarepa{
+    background-color: transparent;
+}
 header{
     background-color: #04114b;
-    
 }
-
 body{
     background-color: #04114b;
     flex-wrap: wrap;
+    text-align: center;
 }
-
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
 nav li{
     display: inline-block;
     }
-    
-
 nav a{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px;
-    background-color:#ffff00;
     font-size: xx-large;
     text-decoration: none;
 }
-
-
-.menu{
-        text-align: end;
-        display: inline-block;
-        width: 84%;    
-        flex-flow: row wrap;
-        }
-
-
 h1{
     text-align: center;
-    font-size: 120px;
+    font-size: 100px;
     color:#ffff00;
     margin: 10%;
     flex-flow: row wrap;
 }
-
 h2{
     font-size: 90px;
     color: #fa0909; 
     text-align: center; 
     margin: 8%;
 }
-
 h3{
     font-size: 75px;
     color: #fa0909;
     text-align: center;
     margin: 7%;
 }
-
 h4{
     text-align: center;
     color: #04114b;
 }
-
 p{
     font-size: 140%; 
     text-align: center;
@@ -79,99 +88,89 @@ p{
     color: #ffffff;    
     flex-flow: row wrap;
 }
-
-
 .fundadores{
     display: flex;
     justify-content:center;
     flex-flow: row wrap;
    }
-
 .C156{
-    
-    margin: 0 15px;
-    
+    margin: 15px;
 }
-
+.video_arepas{
+    text-align: center;
+}
 .blog1{
     display: flex;
     justify-items: auto;
     flex-flow: row wrap;
 }
 
-.formulario{
-    justify-self:center;
-    width: 400px;
-    background: #2710f5;
-    padding: 30px;
-    margin: auto;
-    border-radius: 4px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
-}
-
-.campos{
-
-    width: 100%;
-    margin-bottom: 30px;
-    border: #ffffff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
-     
-
-}
-
-.envio{
-    border-radius: 6px;
-    border: #ffffff;
-    font-size: larger;
-}
-
+@media (max-width: 768px) {
+    
 .E{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+      align-items: center;
 }
 .Entradas{
     margin: 15px;
 }
-
 .F{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .Fuertes{
     margin: 15px;
 }
-
 .B{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .Bebidas{
     margin: 15px;
 }
-.grid-container{
-    display: grid;
-    background-color: #ffff00;
-    margin-top: 20px;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    
-    }
-
-.grid-container div{
- background-color: #ffff00;
-    text-align: center;
-    color: #04114b;
-    font-weight: bold;
-}
-   
-   
-.Todos-los-derechos-reservados{
-    grid-column: 2 / span 2;
-
 }
 
-.Síguenos{
-    text-align: end;
-    }
+
+#formulario{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 400px;
+    background: #ffff00;
+    padding: 30px;
+    margin: auto;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="texto"],
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    border-radius: 20px;
+}
+
+
+button:hover {
+    background-color: #001F3F; /* Azul oscuro al pasar el ratón */
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
