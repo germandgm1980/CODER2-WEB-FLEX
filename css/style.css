@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* esta es la estructura de los comentarios en css 
 elemento{
     propiedad: valor;
@@ -174,3 +175,203 @@ label {
     display: block;
     margin-bottom: 8px;
 }
+=======
+/* esta es la estructura de los comentarios en css 
+elemento{
+    propiedad: valor;
+*/
+
+ 
+/* styles.css */
+
+.navbar-nav .nav-link {
+    color: yellow !important;
+
+  }
+
+  footer {
+    background-color: #04114b;
+    color: #ffff00;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .footer-cell {
+
+    padding: 1px;
+  }
+  
+  .instagram-button a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffff00;
+  }
+  
+
+
+
+.logo_cityarepa{
+    background-color: transparent;
+}
+
+header{
+    background-color: #04114b;
+    
+}
+
+body{
+    background-color: #04114b;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    }
+    
+
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    color:#ffff00;
+    margin: 10%;
+    flex-flow: row wrap;
+}
+
+h2{
+    font-size: 90px;
+    color: #fa0909; 
+    text-align: center; 
+    margin: 8%;
+}
+
+h3{
+    font-size: 75px;
+    color: #fa0909;
+    text-align: center;
+    margin: 7%;
+}
+
+h4{
+    text-align: center;
+    color: #04114b;
+}
+
+p{
+    font-size: 140%; 
+    text-align: center;
+    font: italic;
+    margin: 120px;
+    color: #ffffff;    
+    flex-flow: row wrap;
+}
+
+
+.fundadores{
+    display: flex;
+    justify-content:center;
+    flex-flow: row wrap;
+   }
+
+.C156{
+    
+    margin: 15px;
+    
+}
+
+.video_arepas{
+  
+    text-align: center;
+}
+
+.blog1{
+    display: flex;
+    justify-items: auto;
+    flex-flow: row wrap;
+}
+
+.formulario{
+    justify-self:center;
+    width: 400px;
+    background: #1a01fa;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+.campos{
+
+    width: 100%;
+    margin-bottom: 30px;
+    border: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+     }
+
+.envio{
+    border-radius: 6px;
+    border: #ffffff;
+    font-size: larger;
+}
+
+@media (max-width: 768px) {
+    
+.E{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+      align-items: center;
+   
+}
+.Entradas{
+    margin: 15px;
+      
+}
+
+.F{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Fuertes{
+    margin: 15px;
+}
+
+.B{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Bebidas{
+    margin: 15px;
+}
+}
+>>>>>>> 952336a26b91e6b489a8e3c590a4f3aaca569cfe
