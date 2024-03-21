@@ -1,0 +1,73 @@
+.fundadores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.C156 {
+    max-width: 100%; /* Establecer la anchura máxima al 100% del contenedor padre */
+    height: auto; /* Hacer que la altura se ajuste automáticamente */
+    margin: 10px; /* Agregar margen entre las imágenes si es necesario */
+}
+
+.domicilios .Domi {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 56.25%; /* Proporción de aspecto 16:9 */
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video_arepas{
+    text-align: center;
+}
+.blog1{
+    display: flex;
+    justify-items: auto;
+    flex-flow: row wrap;
+}
+/*estilos de carousel*/  
+.carousel-container {
+    margin: 20px; /* Margen de 20px del header */
+    overflow: hidden;
+
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 1s ease;
+    align-content: center;
+  }
+  .carousel img {
+    width: 100vw; /* Ancho igual al ancho de la ventana */
+    height: auto;
+  }
+  .map-container {
+    position: relative;
+    width: 80%; /* Ancho del contenedor del mapa */
+    margin: auto; /* Centrar horizontalmente */
+    padding-bottom: 50%; /* Proporción de aspecto para Google Maps */
+    overflow: hidden;
+    margin-bottom: 20px; /* Ajustar la distancia al footer */
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+

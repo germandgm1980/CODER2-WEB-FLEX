@@ -1,0 +1,22 @@
+footer {
+    background-color: $bground-color;
+    color: #ffff00;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size:larger
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+  }
+  .footer-cell {
+    padding: 1px;
+  }
+  .instagram-button a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffff00;
+  }

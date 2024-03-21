@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    font-size: 95px;
+    font-family: $proyect-font;
+    color:#ffff00;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    flex-flow: row wrap;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    padding: 10px; /* Espacio interior */
+    }
+h2{
+    font-size: 85px;
+    color: #fa0909; 
+    font-family: $proyect-font;
+    text-align: center; 
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+h3{
+    font-size: 75px;
+    color: #fa0909;
+    font-family: $proyect-font;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+h4{
+    text-align: center;
+    font-family: $proyect-font;
+    color: $bground-color;
+}
+p{
+    font-size: 140%; 
+    text-align: center;
+    font-family: $proyect-font;
+    margin: 120px;
+    color: #ffffff;    
+    flex-flow: row wrap;
+}
